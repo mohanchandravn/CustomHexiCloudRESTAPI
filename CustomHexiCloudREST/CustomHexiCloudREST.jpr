@@ -200,11 +200,23 @@
    <hash n="oracle.jdevimpl.config.JProjectLibraries">
       <list n="exportedReferences">
          <hash>
-            <value n="id" v="Javax.ws.rs-api-2.0.1.jar"/>
+            <value n="id" v="JAX-RS Jersey 2.x"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="JSON Jersey 2.x"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
             <value n="id" v="Aopalliance-repackaged-2.5.0-b32.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Com.sun.jersey.jersey-server-1.4.0.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Genson-1.4.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
@@ -217,6 +229,10 @@
          </hash>
          <hash>
             <value n="id" v="Hk2-utils-2.5.0-b32.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Jackson-jaxrs-json-provider-2.4.3.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
@@ -236,27 +252,11 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
+            <value n="id" v="Javax.ws.rs-api-2.0.1.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
             <value n="id" v="Jaxb-api-2.2.7.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Jersey-guava-2.25.1.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Org.osgi.core-4.2.0.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Osgi-resource-locator-1.0.1.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Persistence-api-1.0.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Validation-api-1.1.0.Final.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
@@ -276,6 +276,10 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
+            <value n="id" v="Jersey-guava-2.25.1.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
             <value n="id" v="Jersey-media-jaxb.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
@@ -284,15 +288,7 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="JAX-RS Jersey 2.x"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Com.sun.jersey.jersey-server-1.4.0.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="JSON Jersey 2.x"/>
+            <value n="id" v="Json-simple-1.1.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
@@ -300,15 +296,19 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="Json-simple-1.1.jar"/>
+            <value n="id" v="Org.osgi.core-4.2.0.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="Jackson-jaxrs-json-provider-2.4.3.jar"/>
+            <value n="id" v="Osgi-resource-locator-1.0.1.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="Genson-1.4.jar"/>
+            <value n="id" v="Persistence-api-1.0.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Validation-api-1.1.0.Final.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
       </list>
@@ -316,16 +316,7 @@
          <list n="libraryDefinitions">
             <hash>
                <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/api/javax.ws.rs-api-2.0.1.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Javax.ws.rs-api-2.0.1.jar"/>
-               <value n="id" v="Javax.ws.rs-api-2.0.1.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/aopalliance-repackaged-2.5.0-b32.jar!/"/>
+                  <url path="public_html/WEB-INF/lib/aopalliance-repackaged-2.5.0-b32.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Aopalliance-repackaged-2.5.0-b32.jar"/>
@@ -334,178 +325,7 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/hk2-api-2.5.0-b32.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Hk2-api-2.5.0-b32.jar"/>
-               <value n="id" v="Hk2-api-2.5.0-b32.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/hk2-locator-2.5.0-b32.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Hk2-locator-2.5.0-b32.jar"/>
-               <value n="id" v="Hk2-locator-2.5.0-b32.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/hk2-utils-2.5.0-b32.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Hk2-utils-2.5.0-b32.jar"/>
-               <value n="id" v="Hk2-utils-2.5.0-b32.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/javassist-3.20.0-GA.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Javassist-3.20.0-GA.jar"/>
-               <value n="id" v="Javassist-3.20.0-GA.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/javax.annotation-api-1.2.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Javax.annotation-api-1.2.jar"/>
-               <value n="id" v="Javax.annotation-api-1.2.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/javax.inject-2.5.0-b32.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Javax.inject-2.5.0-b32.jar"/>
-               <value n="id" v="Javax.inject-2.5.0-b32.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/javax.servlet-api-3.0.1.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Javax.servlet-api-3.0.1.jar"/>
-               <value n="id" v="Javax.servlet-api-3.0.1.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/jaxb-api-2.2.7.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Jaxb-api-2.2.7.jar"/>
-               <value n="id" v="Jaxb-api-2.2.7.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/jersey-guava-2.25.1.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Jersey-guava-2.25.1.jar"/>
-               <value n="id" v="Jersey-guava-2.25.1.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/org.osgi.core-4.2.0.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Org.osgi.core-4.2.0.jar"/>
-               <value n="id" v="Org.osgi.core-4.2.0.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/osgi-resource-locator-1.0.1.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Osgi-resource-locator-1.0.1.jar"/>
-               <value n="id" v="Osgi-resource-locator-1.0.1.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/persistence-api-1.0.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Persistence-api-1.0.jar"/>
-               <value n="id" v="Persistence-api-1.0.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/ext/validation-api-1.1.0.Final.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Validation-api-1.1.0.Final.jar"/>
-               <value n="id" v="Validation-api-1.1.0.Final.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/lib/jersey-client.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Jersey-client.jar"/>
-               <value n="id" v="Jersey-client.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/lib/jersey-common.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Jersey-common.jar"/>
-               <value n="id" v="Jersey-common.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/lib/jersey-container-servlet-core.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Jersey-container-servlet-core.jar"/>
-               <value n="id" v="Jersey-container-servlet-core.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/lib/jersey-container-servlet.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Jersey-container-servlet.jar"/>
-               <value n="id" v="Jersey-container-servlet.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/lib/jersey-media-jaxb.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Jersey-media-jaxb.jar"/>
-               <value n="id" v="Jersey-media-jaxb.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jaxrs-ri-2.25.1/jaxrs-ri/lib/jersey-server.jar!/"/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Jersey-server.jar"/>
-               <value n="id" v="Jersey-server.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/com.sun.jersey.jersey-server-1.4.0.jar/com.sun.jersey.jersey-server-1.4.0.jar!/"/>
+                  <url path="public_html/WEB-INF/lib/com.sun.jersey.jersey-server-1.4.0.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Com.sun.jersey.jersey-server-1.4.0.jar"/>
@@ -514,25 +334,43 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/org.json.jar/org.json.jar!/"/>
+                  <url path="public_html/WEB-INF/lib/genson-1.4.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Org.json.jar"/>
-               <value n="id" v="Org.json.jar"/>
+               <value n="description" v="Genson-1.4.jar"/>
+               <value n="id" v="Genson-1.4.jar"/>
                <value n="locked" v="true"/>
             </hash>
             <hash>
                <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/json-simple-1.1.jar/json-simple-1.1.jar!/"/>
+                  <url path="public_html/WEB-INF/lib/hk2-api-2.5.0-b32.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Json-simple-1.1.jar"/>
-               <value n="id" v="Json-simple-1.1.jar"/>
+               <value n="description" v="Hk2-api-2.5.0-b32.jar"/>
+               <value n="id" v="Hk2-api-2.5.0-b32.jar"/>
                <value n="locked" v="true"/>
             </hash>
             <hash>
                <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/jackson-jaxrs-json-provider-2.4.3.jar/jackson-jaxrs-json-provider-2.4.3.jar!/"/>
+                  <url path="public_html/WEB-INF/lib/hk2-locator-2.5.0-b32.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Hk2-locator-2.5.0-b32.jar"/>
+               <value n="id" v="Hk2-locator-2.5.0-b32.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/hk2-utils-2.5.0-b32.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Hk2-utils-2.5.0-b32.jar"/>
+               <value n="id" v="Hk2-utils-2.5.0-b32.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/jackson-jaxrs-json-provider-2.4.3.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Jackson-jaxrs-json-provider-2.4.3.jar"/>
@@ -541,22 +379,196 @@
             </hash>
             <hash>
                <list n="classPath">
-                  <url protocol="jar" path="file:/C:/Users/vaduri/Downloads/genson-1.4.jar!/"/>
+                  <url path="public_html/WEB-INF/lib/javassist-3.20.0-GA.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Genson-1.4.jar"/>
-               <value n="id" v="Genson-1.4.jar"/>
+               <value n="description" v="Javassist-3.20.0-GA.jar"/>
+               <value n="id" v="Javassist-3.20.0-GA.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/javax.annotation-api-1.2.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Javax.annotation-api-1.2.jar"/>
+               <value n="id" v="Javax.annotation-api-1.2.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/javax.inject-2.5.0-b32.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Javax.inject-2.5.0-b32.jar"/>
+               <value n="id" v="Javax.inject-2.5.0-b32.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/javax.servlet-api-3.0.1.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Javax.servlet-api-3.0.1.jar"/>
+               <value n="id" v="Javax.servlet-api-3.0.1.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Javax.ws.rs-api-2.0.1.jar"/>
+               <value n="id" v="Javax.ws.rs-api-2.0.1.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/jaxb-api-2.2.7.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Jaxb-api-2.2.7.jar"/>
+               <value n="id" v="Jaxb-api-2.2.7.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/jersey-client.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Jersey-client.jar"/>
+               <value n="id" v="Jersey-client.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/jersey-common.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Jersey-common.jar"/>
+               <value n="id" v="Jersey-common.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/jersey-container-servlet-core.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Jersey-container-servlet-core.jar"/>
+               <value n="id" v="Jersey-container-servlet-core.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/jersey-container-servlet.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Jersey-container-servlet.jar"/>
+               <value n="id" v="Jersey-container-servlet.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/jersey-guava-2.25.1.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Jersey-guava-2.25.1.jar"/>
+               <value n="id" v="Jersey-guava-2.25.1.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/jersey-media-jaxb.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Jersey-media-jaxb.jar"/>
+               <value n="id" v="Jersey-media-jaxb.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/jersey-server.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Jersey-server.jar"/>
+               <value n="id" v="Jersey-server.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/json-simple-1.1.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Json-simple-1.1.jar"/>
+               <value n="id" v="Json-simple-1.1.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/org.json.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Org.json.jar"/>
+               <value n="id" v="Org.json.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/org.osgi.core-4.2.0.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Org.osgi.core-4.2.0.jar"/>
+               <value n="id" v="Org.osgi.core-4.2.0.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Osgi-resource-locator-1.0.1.jar"/>
+               <value n="id" v="Osgi-resource-locator-1.0.1.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/persistence-api-1.0.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Persistence-api-1.0.jar"/>
+               <value n="id" v="Persistence-api-1.0.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="public_html/WEB-INF/lib/validation-api-1.1.0.Final.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Validation-api-1.1.0.Final.jar"/>
+               <value n="id" v="Validation-api-1.1.0.Final.jar"/>
                <value n="locked" v="true"/>
             </hash>
          </list>
       </hash>
       <list n="libraryReferences">
          <hash>
-            <value n="id" v="Javax.ws.rs-api-2.0.1.jar"/>
+            <value n="id" v="JAX-RS Jersey 2.x"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="JSON Jersey 2.x"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
             <value n="id" v="Aopalliance-repackaged-2.5.0-b32.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Com.sun.jersey.jersey-server-1.4.0.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Genson-1.4.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
@@ -569,6 +581,10 @@
          </hash>
          <hash>
             <value n="id" v="Hk2-utils-2.5.0-b32.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Jackson-jaxrs-json-provider-2.4.3.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
@@ -588,27 +604,11 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
+            <value n="id" v="Javax.ws.rs-api-2.0.1.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
             <value n="id" v="Jaxb-api-2.2.7.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Jersey-guava-2.25.1.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Org.osgi.core-4.2.0.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Osgi-resource-locator-1.0.1.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Persistence-api-1.0.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Validation-api-1.1.0.Final.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
@@ -628,6 +628,10 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
+            <value n="id" v="Jersey-guava-2.25.1.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
             <value n="id" v="Jersey-media-jaxb.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
@@ -636,15 +640,7 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="JAX-RS Jersey 2.x"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="Com.sun.jersey.jersey-server-1.4.0.jar"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="JSON Jersey 2.x"/>
+            <value n="id" v="Json-simple-1.1.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
@@ -652,15 +648,19 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="Json-simple-1.1.jar"/>
+            <value n="id" v="Org.osgi.core-4.2.0.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="Jackson-jaxrs-json-provider-2.4.3.jar"/>
+            <value n="id" v="Osgi-resource-locator-1.0.1.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="Genson-1.4.jar"/>
+            <value n="id" v="Persistence-api-1.0.jar"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Validation-api-1.1.0.Final.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
       </list>
